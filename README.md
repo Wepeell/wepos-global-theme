@@ -12,12 +12,12 @@ It is essentially just a theme variant with my preferred defaults based on Auror
 
 2. Move the folder to one of the following locations, depending on your intended scope:
 
-   - Per-user installation:  
+   - Per-user installation:
      ```bash
      ~/.local/share/plasma/look-and-feel/com.github.wepos.desktop
      ```
 
-   - System-wide installation:  
+   - System-wide installation:
      ```bash
      /usr/share/plasma/look-and-feel/com.github.wepos.desktop
      ```
@@ -27,5 +27,8 @@ It is essentially just a theme variant with my preferred defaults based on Auror
      ```bash
      org.kde.plasma.folder.js
      ```
-   - Modify it to point to your desired wallpaper file path.  
+   - Modify it to point to your desired wallpaper file path:
+     ```bash
+     applet.writeConfig("Image", "file:///path/to/wallpaper/file.avif")
+     ```
      _Note: A wallpaper is not included in this repository._
