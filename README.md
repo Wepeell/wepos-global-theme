@@ -5,3 +5,27 @@ It is essentially just a theme variant with my preferred defaults based on Auror
 
 ## Requirements
 - [plasma5-wallpapers-dynamic](https://github.com/zzag/plasma5-wallpapers-dynamic)
+
+## Install
+
+1. Download the `com.github.wepos.desktop` folder from this repository.
+
+2. Move the folder to one of the following locations, depending on your intended scope:
+
+   - Per-user installation:  
+     ```bash
+     ~/.local/share/plasma/look-and-feel/com.github.wepos.desktop
+     ```
+
+   - System-wide installation:  
+     ```bash
+     /usr/share/plasma/look-and-feel/com.github.wepos.desktop
+     ```
+
+3. Set your default wallpaper
+   - Open the file:
+     ```bash
+     org.kde.plasma.folder.js
+     ```
+   - Modify it to point to your desired wallpaper file path.  
+     _Note: A wallpaper is not included in this repository._
